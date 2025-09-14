@@ -100,9 +100,15 @@ Frontend runs on http://localhost:8080
 
 📌 Roadmap
 
-✅ Authentication & Role-based Access
+✅ Authentication & Role-based Access   
 
-✅ Teacher & Student dashboards
+✅ Teacher & Student dashboards 
+
+ Access Using 
+
+ (teacher :email : teacher@gmal.com ,password:12345),
+ (student :email : student@gmal.com ,password:12345)
+ (admin   :email : admin@gmal.com ,password:12345)
 
 🚧 Assignment submission with file uploads
 
@@ -111,7 +117,3 @@ Frontend runs on http://localhost:8080
 🚧 Analytics & performance reports
 
 🚧 Notifications & real-time updates
-
-🤝 Contributing
-
-Contributions are welcome! Please fork this repository, create a branch, and submit a pull request.
