@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(260deg,#213555,#10375C);
+    /* background: #10375C; */
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+header .logo{
+    padding: 20px;
+}
+
+.nav-items{
+    padding: 20px;
+}
+.nav-items a{
+    padding: 25px;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.buttons{
+    padding: 15px;
+}
+.buttons button{
+    background: transparent;
+    border: 1px solid #FF6600;
+    padding:8px;
+    font-weight: 450;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #FF6600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#search{
+    background-color: #10375C;
+    border: .5px solid #fff;
+    padding: 6px;
+    width: 250px;
+    color: #eeee;
+}
+input::placeholder{
+    color: #eeee;
+}
